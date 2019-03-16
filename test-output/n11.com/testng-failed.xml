@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [n11.com]">
+  <test name="N11 TaskCalismasi(failed)">
+    <classes>
+      <class name="keytorc.casecalismasi.setup.deneme">
+        <methods>
+          <include name="baslat"/>
+          <include name="deneme5"/>
+          <include name="kapat"/>
+        </methods>
+      </class> <!-- keytorc.casecalismasi.setup.deneme -->
+    </classes>
+  </test> <!-- N11 TaskCalismasi(failed) -->
+</suite> <!-- Failed suite [n11.com] -->

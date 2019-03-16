@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-16T14:54:02Z" name="n11.com" finished-at="2019-03-16T14:54:33Z" duration-ms="30941">
+    <groups>
+    </groups>
+    <test started-at="2019-03-16T14:54:02Z" name="N11 TaskCalismasi" finished-at="2019-03-16T14:54:33Z" duration-ms="30941">
+      <class name="n11Casecalismasi.Testcases.TC001">
+        <test-method is-config="true" signature="baslat()[pri:0, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:02Z" name="baslat" finished-at="2019-03-16T17:54:06Z" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baslat -->
+        <test-method signature="step1()[pri:1, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:06Z" name="step1" finished-at="2019-03-16T17:54:09Z" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method signature="step2()[pri:2, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:09Z" name="step2" finished-at="2019-03-16T17:54:17Z" duration-ms="8145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method signature="step3()[pri:3, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:17Z" name="step3" finished-at="2019-03-16T17:54:21Z" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+        <test-method signature="step4()[pri:4, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:21Z" name="step4" finished-at="2019-03-16T17:54:28Z" duration-ms="6676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method signature="step5()[pri:5, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:28Z" name="step5" finished-at="2019-03-16T17:54:33Z" duration-ms="4566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5 -->
+        <test-method is-config="true" signature="kapat()[pri:0, instance:n11Casecalismasi.Testcases.TC001@5c90e579]" started-at="2019-03-16T17:54:33Z" name="kapat" finished-at="2019-03-16T17:54:33Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kapat -->
+      </class> <!-- n11Casecalismasi.Testcases.TC001 -->
+    </test> <!-- N11 TaskCalismasi -->
+  </suite> <!-- n11.com -->
+</testng-results>

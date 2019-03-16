@@ -1,0 +1,7 @@
+<suite name="n11.com" > 
+	<test name="N11 TaskCalismasi" >
+		<classes>
+			<class name="n11Casecalismasi.Testcases.TC001"/>
+		</classes>
+	</test>
+</suite>

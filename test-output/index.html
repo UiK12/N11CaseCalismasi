@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-n11.com" class="navigator-link">
+              <span class="suite-name border-passed">n11.com</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-n11.com" class="navigator-link ">
+                    <span>C:\dev\n11CaseCalismasi\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-n11.com" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-n11.com" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-n11.com" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-n11.com" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-n11.com" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-n11.com" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-n11.com" class="hide-methods passed suite-n11.com"> (hide)</a> <!-- hide-methods passed suite-n11.com -->
+                      <a href="#" panel-name="suite-n11.com" class="show-methods passed suite-n11.com"> (show)</a> <!-- show-methods passed suite-n11.com -->
+                    </span>
+                    <div class="method-list-content passed suite-n11.com">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-n11.com" title="n11Casecalismasi.Testcases.TC001" class="method navigator-link" hash-for-method="step1">step1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-n11.com" title="n11Casecalismasi.Testcases.TC001" class="method navigator-link" hash-for-method="step2">step2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-n11.com" title="n11Casecalismasi.Testcases.TC001" class="method navigator-link" hash-for-method="step3">step3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-n11.com" title="n11Casecalismasi.Testcases.TC001" class="method navigator-link" hash-for-method="step4">step4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-n11.com" title="n11Casecalismasi.Testcases.TC001" class="method navigator-link" hash-for-method="step5">step5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-n11.com -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-n11.com" class="panel n11.com">
+          <div class="suite-n11.com-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">n11Casecalismasi.Testcases.TC001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1">
+                  </a> <!-- step1 -->
+                  <span class="method-name">step1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2">
+                  </a> <!-- step2 -->
+                  <span class="method-name">step2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3">
+                  </a> <!-- step3 -->
+                  <span class="method-name">step3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4">
+                  </a> <!-- step4 -->
+                  <span class="method-name">step4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5">
+                  </a> <!-- step5 -->
+                  <span class="method-name">step5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-n11.com-class-passed -->
+        </div> <!-- panel n11.com -->
+        <div panel-name="test-xml-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\dev\n11CaseCalismasi\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;n11.com&quot;&gt;
+  &lt;test name=&quot;N11 TaskCalismasi&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;n11Casecalismasi.Testcases.TC001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- N11 TaskCalismasi --&gt;
+&lt;/suite&gt; &lt;!-- n11.com --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for n11.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">N11 TaskCalismasi (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for n11.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for n11.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_n11.com');
+function tableData_n11.com() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'step2')
+data.setCell(0, 2, 'n11Casecalismasi.Testcases.TC001')
+data.setCell(0, 3, 8145);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'step4')
+data.setCell(1, 2, 'n11Casecalismasi.Testcases.TC001')
+data.setCell(1, 3, 6676);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'step5')
+data.setCell(2, 2, 'n11Casecalismasi.Testcases.TC001')
+data.setCell(2, 3, 4566);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'step3')
+data.setCell(3, 2, 'n11Casecalismasi.Testcases.TC001')
+data.setCell(3, 3, 4527);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'step1')
+data.setCell(4, 2, 'n11Casecalismasi.Testcases.TC001')
+data.setCell(4, 3, 2507);
+window.suiteTableData['n11.com']= { tableData: data, tableDiv: 'times-div-n11.com'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-n11.com">
+              </div> <!-- times-div-n11.com -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for n11.com</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-n11.com" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">n11Casecalismasi.Testcases.TC001</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">baslat</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">step1</span>
+                <span class="method-start">3872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step2</span>
+                <span class="method-start">6381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3</span>
+                <span class="method-start">14527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4</span>
+                <span class="method-start">19055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step5</span>
+                <span class="method-start">25732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">kapat</span>
+                <span class="method-start">30299 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
