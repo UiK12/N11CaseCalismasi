@@ -12,7 +12,7 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void baslat() {
-		//Start Browser
+		//ChromeDriver path'i kendi cihazýma göre ayarladým. Çalýþtýrýlacak cihazlarda driverýn olduðu path'e göre deðiþtirilmeli.
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\uik12\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();

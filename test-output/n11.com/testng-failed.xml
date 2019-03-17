@@ -3,13 +3,15 @@
 <suite name="Failed suite [n11.com]">
   <test name="N11 TaskCalismasi(failed)">
     <classes>
-      <class name="keytorc.casecalismasi.setup.deneme">
+      <class name="n11Casecalismasi.Testcases.TC001">
         <methods>
           <include name="baslat"/>
-          <include name="deneme5"/>
+          <include name="step4"/>
+          <include name="step5"/>
+          <include name="step3"/>
           <include name="kapat"/>
         </methods>
-      </class> <!-- keytorc.casecalismasi.setup.deneme -->
+      </class> <!-- n11Casecalismasi.Testcases.TC001 -->
     </classes>
   </test> <!-- N11 TaskCalismasi(failed) -->
 </suite> <!-- Failed suite [n11.com] -->
